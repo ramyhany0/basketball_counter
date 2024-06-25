@@ -29,7 +29,7 @@ class _PointerCounterState extends State<PointerCounter> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Container(
+                SizedBox(
                   height: 500,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -98,9 +98,9 @@ class _PointerCounterState extends State<PointerCounter> {
                     ],
                   ),
                 ),
-                Container(
+                const SizedBox(
                   height: 500,
-                  child: const VerticalDivider(
+                  child: VerticalDivider(
                     color: Colors.grey,
                     indent: 50,
                     endIndent: 50,
